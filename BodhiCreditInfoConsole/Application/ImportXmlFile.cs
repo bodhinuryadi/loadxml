@@ -1,9 +1,4 @@
 ﻿using BodhiCreditInfoConsole.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Schema;
@@ -14,10 +9,12 @@ namespace BodhiCreditInfoConsole.Application
     {
         private string _xsdPath;
         private string _xmlFolder;
-        public ImportXmlFile(string xsdPath, string xmlFolder)
+        private string _targetNameSpace;
+        public ImportXmlFile(string xsdPath, string xmlFolder, string targetNameSpace)
         {
             _xsdPath = xsdPath;
             _xmlFolder = xmlFolder;
+            _targetNameSpace = targetNameSpace;
         }
         public List<XmlFile> Validate()
         {
@@ -26,7 +23,7 @@ namespace BodhiCreditInfoConsole.Application
             {
                 var basePath = Directory.GetCurrentDirectory();
                 XmlSchemaSet schema = new XmlSchemaSet();
-                schema.Add("http://creditinfo.com/schemas/Sample/Data", basePath + _xsdPath);
+                schema.Add(_targetNameSpace, basePath + _xsdPath);
                 List<string> xmlList = Directory.GetFiles(basePath + _xmlFolder, "*.xml").ToList();
                 foreach (string xmlFileName in xmlList)
                 {

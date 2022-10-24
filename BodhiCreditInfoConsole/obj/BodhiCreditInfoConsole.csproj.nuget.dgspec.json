@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Private\\CreditInfo\\BodhiCreditInfoConsole\\BodhiCreditInfoConsole\\BodhiCreditInfoConsole.csproj": {}
+    "C:\\Private\\CreditInfo\\loadxml\\BodhiCreditInfoConsole\\BodhiCreditInfoConsole.csproj": {}
   },
   "projects": {
-    "C:\\Private\\CreditInfo\\BodhiCreditInfoConsole\\BodhiCreditInfoConsole\\BodhiCreditInfoConsole.csproj": {
+    "C:\\Private\\CreditInfo\\loadxml\\BodhiCreditInfoConsole\\BodhiCreditInfoConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Private\\CreditInfo\\BodhiCreditInfoConsole\\BodhiCreditInfoConsole\\BodhiCreditInfoConsole.csproj",
+        "projectUniqueName": "C:\\Private\\CreditInfo\\loadxml\\BodhiCreditInfoConsole\\BodhiCreditInfoConsole.csproj",
         "projectName": "BodhiCreditInfoConsole",
-        "projectPath": "C:\\Private\\CreditInfo\\BodhiCreditInfoConsole\\BodhiCreditInfoConsole\\BodhiCreditInfoConsole.csproj",
+        "projectPath": "C:\\Private\\CreditInfo\\loadxml\\BodhiCreditInfoConsole\\BodhiCreditInfoConsole.csproj",
         "packagesPath": "C:\\Users\\bodhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Private\\CreditInfo\\BodhiCreditInfoConsole\\BodhiCreditInfoConsole\\obj\\",
+        "outputPath": "C:\\Private\\CreditInfo\\loadxml\\BodhiCreditInfoConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bodhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
