@@ -1,0 +1,15 @@
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\obj\Debug\net6.0\BodhiCreditInfoConsole.csproj.AssemblyReference.cache
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\obj\Debug\net6.0\BodhiCreditInfoConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\obj\Debug\net6.0\BodhiCreditInfoConsole.AssemblyInfoInputs.cache
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\obj\Debug\net6.0\BodhiCreditInfoConsole.AssemblyInfo.cs
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\obj\Debug\net6.0\BodhiCreditInfoConsole.csproj.CoreCompileInputs.cache
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\bin\Debug\net6.0\BodhiCreditInfoConsole.exe
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\bin\Debug\net6.0\BodhiCreditInfoConsole.deps.json
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\bin\Debug\net6.0\BodhiCreditInfoConsole.runtimeconfig.json
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\bin\Debug\net6.0\BodhiCreditInfoConsole.dll
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\bin\Debug\net6.0\BodhiCreditInfoConsole.pdb
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\obj\Debug\net6.0\BodhiCreditInfoConsole.dll
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\obj\Debug\net6.0\refint\BodhiCreditInfoConsole.dll
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\obj\Debug\net6.0\BodhiCreditInfoConsole.pdb
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\obj\Debug\net6.0\BodhiCreditInfoConsole.genruntimeconfig.cache
+C:\Private\CreditInfo\BodhiCreditInfoConsole\BodhiCreditInfoConsole\obj\Debug\net6.0\ref\BodhiCreditInfoConsole.dll

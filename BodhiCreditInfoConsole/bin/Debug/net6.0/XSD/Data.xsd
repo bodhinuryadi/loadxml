@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ci="http://creditinfo.com/schemas/Sample/Data" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://creditinfo.com/schemas/Sample/Data" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Batch">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" name="Contract">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ContractCode" type="xs:string" />
+							<xs:element name="ContractData">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="PhaseOfContract" type="xs:string" />
+										<xs:element name="OriginalAmount">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Value" type="xs:unsignedInt" />
+													<xs:element name="Currency" type="xs:string" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="InstallmentAmount">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Value" type="xs:unsignedShort" />
+													<xs:element name="Currency" type="xs:string" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="CurrentBalance">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Value" type="xs:decimal" />
+													<xs:element name="Currency" type="xs:string" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="OverdueBalance">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Value" type="xs:unsignedShort" />
+													<xs:element name="Currency" type="xs:string" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="DateOfLastPayment" type="xs:date" />
+										<xs:element name="NextPaymentDate" type="xs:date" />
+										<xs:element name="DateAccountOpened" type="xs:date" />
+										<xs:element name="RealEndDate" type="xs:date" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element maxOccurs="unbounded" name="Individual">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="CustomerCode" type="xs:string" />
+										<xs:element name="FirstName" type="xs:string" />
+										<xs:element name="LastName" type="xs:string" />
+										<xs:element name="Gender" type="xs:string" />
+										<xs:element name="DateOfBirth" type="xs:date" />
+										<xs:element name="IdentificationNumbers">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="NationalID" type="xs:string" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element maxOccurs="unbounded" name="SubjectRole">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="CustomerCode" type="xs:string" />
+										<xs:element name="RoleOfCustomer" type="xs:string" />
+										<xs:element minOccurs="0" name="GuaranteeAmount">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Value" type="xs:unsignedShort" />
+													<xs:element name="Currency" type="xs:string" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
